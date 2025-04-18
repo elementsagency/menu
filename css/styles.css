@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+	scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;  
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    padding: 25px 0;
+}
+.card{
+    text-align: center;
+    width: 360px;
+    padding: 0;
+    border: 0;
+    margin: 20px auto;
+}
+.card img{
+    width: 360px;
+    height: 360px;
+}
+.card-description{
+    background-color: white;
+    padding: 30px;
+    padding-top: 0;
+}
+.title{
+    font-size: 22px;
+    padding: 10px 0;
+    margin: 0;
+    font-weight: 600;
+}
+.description{
+    margin: 0;
+}
+.price{
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+.section-title{
+    font-size: 34px;
+    padding: 10px 0;
+    text-align: center;
+}
+.menu {
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 0px;
+}
+.menu a {
+    display: inline-block;
+    font-size: 18px;
+    color: #9f301c !important;
+    font-weight: 500;
+    padding: 0px 5px 2px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu a.active {
+    border-bottom: 2px solid #9f301c;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.language-switcher {
+    text-align: end;
+}
